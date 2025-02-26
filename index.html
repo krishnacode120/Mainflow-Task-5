@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page using Javascript</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Login</h2>
+            <div class="input-field">
+              <i class='bx bxs-user'></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class='bx bxs-lock'></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            <p class="social-text">Or Login with social media platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class='bx bxl-facebook' ></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class='bx bxl-twitter'></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class='bx bxl-google'></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class='bx bxl-linkedin'></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Register</h2>
+            <div class="input-field">
+              <i class='bx bxs-user'></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class='bx bxs-envelope' ></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class='bx bxs-lock'></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="Register" />
+            <p class="social-text">Or Register with social media platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class='bx bxl-facebook' ></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class='bx bxl-twitter'></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class='bx bxl-google'></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class='bx bxl-linkedin'></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Hello, Welcome!</h3>
+            <p>
+              Don't have an account?
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Register
+            </button>
+          </div>
+          <img src="img\log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Welcome Back!</h3>
+            <p>
+              Already have an account?
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Login
+            </button>
+          </div>
+          <img src="img\register.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
